@@ -1,0 +1,67 @@
+/* --- YLEISET TEKSTIT --- */
+
+/* Asettaa perustekstin valkoiseksi */
+body, p, li, span, div {
+    color: #ffffff;
+}
+
+/* Pakottaa kaikki otsikot valkoisiksi */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+
+/* --- BOOTSTRAPIN JA WHMCS:N ERIKOISTEKSTIT --- */
+
+/* "Muted" teksti on oletuksena tummanharmaa.
+   Muutetaan se vaaleanharmaaksi, jotta se erottuu mutta on "hiljaisempi" */
+.text-muted, .text-center small {
+    color: #cccccc !important;
+}
+
+/* Tuotekuvausten tekstit */
+.product-info, .product-desc {
+    color: #e0e0e0;
+}
+
+/* Hinnat (usein vihreitä tai mustia, muutetaan vaaleaksi tai brändiväriksi) */
+.price, .price-per-cycle {
+    color: #ffffff !important;
+}
+
+/* --- LINKIT --- */
+
+/* Linkit eivät voi olla tummansinisiä tummalla taustalla.
+   Käytetään vaaleansinistä. */
+a {
+    color: #6ec6ff;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* --- LOMAKKEET JA TAULUKOT --- */
+
+/* Lomakkeiden labelit (esim. "Choose Currency") */
+label, .control-label {
+    color: #ffffff !important;
+}
+
+/* Taulukoiden tekstit (esim. domain-haku) */
+table, th, td {
+    color: #ffffff !important;
+}
+
+/* Sidebarin otsikot ja linkit */
+.sidebar .panel-title {
+    color: #ffffff;
+}
+.sidebar .list-group-item {
+    background-color: transparent;
+    color: #cccccc;
+}
+.sidebar .list-group-item:hover {
+    color: #ffffff;
+    background-color: #333; /* Hieman vaaleampi tausta hoverissa */
+}
